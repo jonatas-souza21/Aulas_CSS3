@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    border: solid 1px cadetblue;
+    grid-template-areas: 
+    "header header header header header"
+    "img img main main main"
+    "img img main main main"
+    "footer footer footer footer footer"
+    ;
+}
+
+.item {
+    box-sizing: border-box;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+.item1 {
+    grid-area: header;
+    background-color: blueviolet;
+}
+
+.item2 {
+    grid-area: img;
+    background-color: cadetblue;
+}
+
+.item3 {
+    grid-area: main;
+    background-color: red;
+}
+
+.item4 {
+    grid-area: footer;
+    background-color: green;
+}

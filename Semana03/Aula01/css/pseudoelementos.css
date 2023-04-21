@@ -1,0 +1,20 @@
+/* A notação com dois pontos foi introduzida no CSS3 afim de diferenciar 
+pseudo-classes de pseudo-elementos. */
+
+/* Insere um conteúdo ANTES de um elemento pai */
+.p1::before {
+    content: "Valor ANTES - ";
+    background-color: beige;
+}
+
+/* Insere um conteúdo DEPOIS de um elemento pai */
+.p2::after {
+    content: " - Valor DEPOIS";
+    background-color: beige;
+}
+
+/* Seleciona uma porção de um elemento que é selecionada pelo usuário */
+.p3::selection {
+    background-color: black;
+    color: white;
+}

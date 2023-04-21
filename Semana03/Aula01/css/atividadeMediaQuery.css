@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+h1 {
+    clear: left;
+}
+
+div {
+    background-color: white;
+    overflow: hidden;
+}
+
+div img {
+    float: right;
+    width: 200px;
+}
+
+#p2 {
+    clear: both;
+}
+
+@media (max-width:500px) {
+    p {
+        font-size: 1.5em;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+@media (min-width:800px) {
+    body {
+        background-color: silver;
+    }
+}

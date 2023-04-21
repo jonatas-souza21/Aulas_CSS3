@@ -1,0 +1,25 @@
+body {
+    background-color: #f0e5ff;
+}
+
+h1 {
+    background-color: #482973;
+    color:#F2F2F2;
+}
+
+#a {
+    background-color: #F2F2F2;
+    color: #482973;
+    font-family: 'Poppins', sans-serif;
+}
+
+#b {
+    background-color: #F2F2F2;
+    color: #482973;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+p, ul, small {
+    color:#482973;
+}

@@ -1,0 +1,32 @@
+/* #conteudo {
+    margin: 20px;
+    border: solid 2px;
+    float: left;
+} */
+
+/* #dv1 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: solid 1px;
+    float: left;
+} */
+
+/* #dv2 {
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: solid 1px;
+    float: left;
+} */
+
+#dv3 {
+    background-color: rgb(68, 0, 255);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: solid 1px;
+    float: right;
+}

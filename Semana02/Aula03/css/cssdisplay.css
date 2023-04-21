@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#dv1 {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    background-color: red;
+    border: solid 5px black;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#dv2 {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    background-color: purple;
+    display: inline-block;
+}

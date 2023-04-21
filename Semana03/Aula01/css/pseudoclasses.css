@@ -1,0 +1,21 @@
+#nome:focus {
+    background-color: black;
+    color: white;
+    float: left;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:active {
+    color: green;
+}
+
+a:link {
+    color: blue;
+}
+
+a {
+    display: block;
+}

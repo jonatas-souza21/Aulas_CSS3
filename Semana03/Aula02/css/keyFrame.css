@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+    background-color: silver;
+}
+
+img {
+    width: 350px;
+    border: solid 1px green;
+    border-radius: 15px;
+}
+
+.anima:hover {
+    animation: movimento 1s;
+}
+
+@keyframes movimento {
+    0% {
+        transform: translateX(0px);
+    }
+
+    30% {
+        transform: translateX(50px);
+    }
+
+    60% {
+        transform: translateX(-50px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}

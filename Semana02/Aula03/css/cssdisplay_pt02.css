@@ -1,0 +1,28 @@
+
+
+#none {
+    display: none;
+}
+
+#inline {
+    display: inline;
+    background-color: rgb(99, 255, 203);
+    width: 100px;
+    height: 50px;
+}
+
+/* Reverva um espaço na página */
+#block {
+    display: block;
+    background-color: red;  
+}
+
+/* Permite colocar um elemento do lado do outro */
+#inblock {
+    display: inline-block;
+    background-color: purple;
+    width: 100px;
+    height: 50px;
+}
+
+

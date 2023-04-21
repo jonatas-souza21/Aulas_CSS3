@@ -1,0 +1,45 @@
+body {
+  background-color: #90a19d;
+}
+
+h1 {
+  background-color: #363432;
+  color: rgb(255, 208, 0);
+  text-align: center;
+  line-height: 50px;
+  text-shadow:-3px -2px 5px rgb(0, 0, 0);
+}
+
+#titulo1 {
+  color: #f2be22;
+  background-color: #30a5bf;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  line-height: 50px;
+}
+
+#titulo2 {
+  color: #0a324d;
+  background-color: #a6874e;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 50px;
+}
+
+ul {
+  list-style-type: none; /*remove ícone da lista*/
+}
+
+span {
+  font-weight: bolder;
+}
+
+/* ------------------------------ */
+p.primeiro {
+  text-align: center;
+  color: red;
+}     
+
+.segundo {
+  text-align: center;
+  color: red;
+}

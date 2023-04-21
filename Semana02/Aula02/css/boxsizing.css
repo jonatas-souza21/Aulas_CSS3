@@ -1,0 +1,31 @@
+#dv1 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: solid 1px;
+    box-sizing: border-box;
+}
+
+#dv2 {
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: solid 5px;
+    box-sizing: border-box; /* faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura*/
+}
+
+#dv3 {
+    background-color: rgb(68, 0, 255);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: solid 5px;
+    box-sizing: content-box; /* Content-box é o valor padrão */
+}
+
+span {
+    font-weight: bold;
+}
+

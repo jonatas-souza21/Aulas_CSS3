@@ -1,0 +1,34 @@
+.container {
+    width: 800px;
+    height: 800px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row; /*Direção, para onde os itens serão direcionados*/
+    /*Esse é o valor padrão*/
+    /* flex-wrap: nowrap;  */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.item1 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: red;
+}
+
+.item2 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: green;
+}
+
+.item3 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: blue;
+}
+

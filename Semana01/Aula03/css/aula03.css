@@ -1,0 +1,29 @@
+/* Será aplicado em todos os elementos que não estilo definido */
+* {
+    background-color: azure;
+}
+
+/* Regra de classe que pode ser aplicada em todo elemento HTML */
+.fundo {
+    background-color: aquamarine;
+}
+
+/* Regra de classe que pode ser aplicada apenas em elementos "H2" */
+h2.fundo {
+    background-color: rgb(255, 0, 0);
+}
+
+/* Classe fica vinculado ao ID do elemento de HTML, o ID é único e não se repete*/
+#linha {
+    color:rgb(85, 93, 101);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: end;
+}
+
+/* Aplicar um estilo CSS em um elemento dentro de um outro elemento específico */
+article p {
+    color:rgb(255, 0, 0);
+}
+

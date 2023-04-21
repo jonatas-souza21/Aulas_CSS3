@@ -1,0 +1,27 @@
+#a {
+    font-weight: bolder;
+}
+
+#b {
+    font-style: italic;
+}
+
+#c {
+    line-height: 50px;
+}
+
+#d {
+    text-align: center;
+}
+
+#e {
+    text-shadow: 20px 10px 10px rgb(000, 000, 200);
+}
+
+#f {
+    text-indent: 30px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

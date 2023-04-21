@@ -1,0 +1,65 @@
+.container {
+    width: 800px;
+    height: 800px;
+    border: solid 1px black;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-content: space-between;
+    flex-flow:column-reverse wrap-reverse; /* flex-direction e flex-wrap */
+}
+
+/* flex-grow = aumenta o tamanho do elemento de acordo com o espaço que ele tem
+    order = controla a ordem dos itens no container
+ */
+
+.item1 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: red;
+}
+
+.item2 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: green;
+}
+
+.item3 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: green;
+    justify-content: space-evenly;
+}
+
+.item4 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: green; 
+}
+
+.item5 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: green; 
+}
+
+.item6 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: yellow; 
+}
+
+.item7 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: yellow; 
+}
+

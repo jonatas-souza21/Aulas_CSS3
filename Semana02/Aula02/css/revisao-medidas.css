@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    color: #704900;
+    background-image: url(../img/praia.jpg);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-top: 6vh;
+}
+
+a {
+    text-decoration: none;
+    color:#704900;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section {
+    color: white ;
+    font-size: 1.1rem;
+    background-color:rgb(92,62,39);
+    margin-top: 100vh;
+    height: 8vh; 
+}
+
+
+
+

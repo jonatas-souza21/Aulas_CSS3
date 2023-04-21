@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img{
+    border: 2px solid black;
+    width: 620px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url(/Aula04/img/textura3.jpg);
+    background-size: cover;
+}

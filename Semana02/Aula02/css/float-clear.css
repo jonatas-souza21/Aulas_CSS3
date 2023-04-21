@@ -1,0 +1,26 @@
+#dv1 {
+    border: solid 2px green;
+    width: 100px;
+    height: 70px;
+    margin: 8px 5px;
+    float: left;
+}
+
+#dv2 {
+    border: solid 2px red;
+}
+
+#dv3 {
+    border: solid 2px green;
+    margin: 8px 5px;
+    width: 100px;
+    height: 70px;
+}
+
+#dv4 {
+    border: solid 2px red;
+}
+
+h2 {
+    clear:left;
+}

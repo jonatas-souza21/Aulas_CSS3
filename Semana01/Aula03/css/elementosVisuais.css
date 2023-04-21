@@ -1,0 +1,12 @@
+/* Propriedade Border com os valores: width, color e style */
+h1 {
+    border: 2px blue dotted;
+}
+
+/* Pode-se usar assim também */
+article p {
+    border-width: 3px;
+    border-style: groove;
+    border-color: aquamarine;
+}
+
